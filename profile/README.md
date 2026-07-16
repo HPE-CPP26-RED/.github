@@ -130,7 +130,7 @@ Complete source code, production configuration, Docker deployment, authenticatio
 
 ### Documentation
 
-➡️ **[security-documentation](https://github.com/HPE-CPP26-RED>/security-documentation)**
+➡️ **[security-documentation](https://github.com/HPE-CPP26-RED/security-documentation)**
 
 Architecture, security controls, infrastructure, deployment guides, testing methodology, and validation documentation.
 
