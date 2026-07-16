@@ -116,101 +116,39 @@ Security is implemented across multiple layers including:
 
 ---
 
-# Repository Architecture
+# Explore the Project
 
-```mermaid
-flowchart LR
+The Secure Application Development project is organized into dedicated repositories that separate implementation, documentation, automation, and project deliverables.
 
-ORG["Secure Application Development"]
+### Application
 
-ORG --> APP["secure-ecommerce-platform"]
-ORG --> DOCS["security-documentation"]
-ORG --> AUTO["security-automation"]
-ORG --> ART["project-artifacts"]
+➡️ **[secure-ecommerce-platform](https://github.com/HPE-CPP26-RED/Secure-Web-Application-Dev)**
 
-APP --> CODE["Application Source"]
-APP --> CICD["CI/CD"]
-
-DOCS --> ARCH["Architecture"]
-DOCS --> SEC["Security Controls"]
-
-AUTO --> SBOM["SBOM"]
-AUTO --> VULN["Vulnerability Scanning"]
-
-ART --> PPT["Presentations"]
-ART --> DEMO["Demo Videos"]
-ART --> REPORT["Reports"]
-```
+Complete source code, production configuration, Docker deployment, authentication, RBAC, and CI/CD.
 
 ---
 
-# Organization Repositories
+### Documentation
 
-## secure-ecommerce-platform
+➡️ **[security-documentation](https://github.com/HPE-CPP26-RED>/security-documentation)**
 
-The primary application repository containing the complete PERN-stack implementation.
-
-**Contents**
-
-- React frontend
-- Express backend
-- PostgreSQL database
-- Docker configuration
-- Nginx reverse proxy
-- Authentication
-- Role-Based Access Control
-- Google OAuth
-- Payment integration
-- CI/CD workflows
+Architecture, security controls, infrastructure, deployment guides, testing methodology, and validation documentation.
 
 ---
 
-## security-documentation
+### DevSecOps
 
-Comprehensive technical documentation describing the project's architecture, security design, deployment strategy, operational procedures, and engineering decisions.
+➡️ **[security-automation](https://github.com/HPE-CPP26-RED/security-automation)**
 
-**Contents**
-
-- Architecture documentation
-- AWS deployment
-- Linux RBAC
-- Network segmentation
-- Security controls
-- Deployment guides
-- Testing documentation
-- Engineering notes
+SBOM generation, vulnerability scanning, VEX generation, automated security jobs, and reporting.
 
 ---
 
-## security-automation
+### Project Deliverables
 
-Automation scripts supporting software supply chain security and continuous security monitoring.
+➡️ **[project-artifacts](https://github.com/HPE-CPP26-RED/project-artifacts)**
 
-**Contents**
-
-- SBOM generation
-- Vulnerability scanning
-- Security automation
-- Scheduled security jobs
-- Report generation
-- VEX documentation
-- Security reporting
-
----
-
-## project-artifacts *(Planned)*
-
-A central repository containing project deliverables and presentation material.
-
-Planned contents include:
-
-- Final presentations
-- Demonstration videos
-- Interview preparation handbooks
-- Project reports
-- Architecture diagrams
-- Speaker notes
-- Demonstration scripts
+Final presentations, demonstration videos, interview handbooks, reports, and supporting project artifacts.
 
 ---
 
